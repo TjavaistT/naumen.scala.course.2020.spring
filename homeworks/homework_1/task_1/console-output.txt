@@ -1,0 +1,24 @@
+vaist@vaist-To-be-filled-by-O-E-M:~/IdeaProjects/naumen.scala.course.2020.spring$ scala
+Welcome to Scala 2.11.12 (OpenJDK 64-Bit Server VM, Java 11.0.7).
+Type in expressions for evaluation. Or try :help.
+
+scala> var mainGriting: String = "Hello Scala! This is "
+mainGriting: String = "Hello Scala! This is "
+
+scala> val name: String = "Vaist"
+name: String = Vaist
+
+scala> println(mainGriting + name)
+Hello Scala! This is Vaist
+
+scala> mainGriting.replace("Hello", "Hola")
+res1: String = "Hola Scala! This is "
+
+scala> println(mainGriting + name)
+Hello Scala! This is Vaist
+
+scala> var greeting1: String = mainGriting + name
+greeting1: String = Hello Scala! This is Vaist
+
+scala> greeting1.reverse
+res3: String = tsiaV si sihT !alacS olleH
